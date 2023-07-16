@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{6B77738C-B639-4A87-9687-A63B904A6E12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatsAndHosts", "CatsAndHosts\CatsAndHosts.csproj", "{5E1B577B-62FA-4025-9B68-608E143CFCA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatsAndHosts.Test", "CatsAndHosts.Test\CatsAndHosts.Test.csproj", "{150878D0-3480-4E21-BF6D-511FB5F02755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E1B577B-62FA-4025-9B68-608E143CFCA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1B577B-62FA-4025-9B68-608E143CFCA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1B577B-62FA-4025-9B68-608E143CFCA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1B577B-62FA-4025-9B68-608E143CFCA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150878D0-3480-4E21-BF6D-511FB5F02755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150878D0-3480-4E21-BF6D-511FB5F02755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150878D0-3480-4E21-BF6D-511FB5F02755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150878D0-3480-4E21-BF6D-511FB5F02755}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E1B577B-62FA-4025-9B68-608E143CFCA7} = {6B77738C-B639-4A87-9687-A63B904A6E12}
+		{150878D0-3480-4E21-BF6D-511FB5F02755} = {6B77738C-B639-4A87-9687-A63B904A6E12}
+	EndGlobalSection
+EndGlobal
